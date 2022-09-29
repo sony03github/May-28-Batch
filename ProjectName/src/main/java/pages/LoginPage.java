@@ -12,14 +12,14 @@ public class LoginPage {
 	private WebElement userName;
 	
 	
-	@FindBy (xpath = "//input[@id='pass']")
-	private WebElement password;
+	//@FindBy (xpath = "//input[@id='pass']")
+	//private WebElement password;
 	
-	@FindBy (xpath = "//button[text()='Log In']")
-	private WebElement loginButton;
+	//@FindBy (xpath = "//button[text()='Log In']")
+	//private WebElement loginButton;
 	
-	@FindBy (xpath = "//a[text()='Create New Account']")
-	private WebElement  createNewAccount;
+	//@FindBy (xpath = "//a[text()='Create New Account']")
+	//private WebElement  createNewAccount;
 	
 	@FindBy (xpath = "//a[text()='Messenger']")
 	private WebElement messengerLink;
